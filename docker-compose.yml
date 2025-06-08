@@ -10,31 +10,17 @@ services:
     restart: unless-stopped
     ports:
       - "9091:9091"
-    # volumes:
-      # - anon_docker:/var/lib/anon/
-      # - anon_docker:/etc/anon/
-      # - anon_docker:/run/anon/ #Optional dir for NYX
     configs:
       - source: anonrc
         target: /etc/anon/anonrc
 
-volumes:
-  anon_relay:
-
 configs:
   anonrc:
     content: |
-      # user anond
-      # DataDirectory /var/lib/anon
-      # ControlPort 9051
-      ControlSocket /run/anon/control
-      ControlSocketsGroupWritable 1
-      CookieAuthentication 1
-      CookieAuthFile /run/anon/control.authcookie
-      CookieAuthFileGroupReadable 1
+      ControlPort 9051
       Log notice file /var/log/anon/notices.log
-      ORPort 9091
+      ORPort 9001
       ExitRelay 0
-      Nickname test
-      ContactInfo test@test.io
+      Nickname MyRelayNickname
+      ContactInfo my@example.mail
       AgreeToTerms 1
