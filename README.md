@@ -1,4 +1,4 @@
-# Deploy anon relay using Docker
+# Deploy Anon Relay using Docker
 
 Deploy a Anon Relay using Docker and participate in expanding the Anyone Network.
 
@@ -12,3 +12,8 @@ Deploy a Anon Relay using Docker and participate in expanding the Anyone Network
    ```bash
    docker compose logs anon-relay
    ```
+   
+## URLs
+ * Website:           https://anyone.io
+ * Documentation:     https://docs.anyone.io
+ * Social:            https://x.com/AnyoneFDN
