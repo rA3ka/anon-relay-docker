@@ -1,6 +1,6 @@
 # Deploy anon relay using Docker
 
-Deploy a Anon Relay using docker and participate in expanding the Anyone network.
+Deploy a Anon Relay using Docker and participate in expanding the Anyone Network.
 
 ## To run locally
 
