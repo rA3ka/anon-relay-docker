@@ -17,10 +17,11 @@ services:
 configs:
   anonrc:
     content: |
+      AgreeToTerms 1
       ControlPort 9051
       Log notice file /var/log/anon/notices.log
-      ORPort 9001
       ExitRelay 0
+      ORPort 9001
       Nickname MyRelayNickname
       ContactInfo my@example.mail
-      AgreeToTerms 1
+
