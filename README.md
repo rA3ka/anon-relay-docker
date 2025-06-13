@@ -23,7 +23,7 @@ Deploy a Anon Relay using Docker and participate in expanding the Anyone Network
          ContactInfo my@example.mail
    ```
 
-3. Run the containers:
+3. Build the image and start the container:
    ```bash
    docker compose up -d
    ```
@@ -31,7 +31,7 @@ Deploy a Anon Relay using Docker and participate in expanding the Anyone Network
    ```bash
    docker compose logs anon-relay
    ```
-5. (Optional) Run Nyx to monitor the Anon service over via the `ControlPort`:
+5. (Optional) Run Nyx to monitor the Anon service via the `ControlPort`:
    ```
    docker exec -it anon-relay nyx
    ```
