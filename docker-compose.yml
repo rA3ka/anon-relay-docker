@@ -9,7 +9,7 @@ services:
     init: true
     restart: unless-stopped
     ports:
-      - "9091:9091"
+      - "9001:9001"
     configs:
       - source: anonrc
         target: /etc/anon/anonrc
