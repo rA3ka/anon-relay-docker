@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     nyx \
     nano \
     ca-certificates
+    
 RUN rm -rf /var/lib/apt/lists/*
 
 RUN echo "anon anon/terms boolean true" | debconf-set-selections
