@@ -31,6 +31,10 @@ git clone https://github.com/rA3ka/anon-relay-docker
    ```bash
    docker compose logs anon-relay
    ```
+5. (Optional) Run Nyx to monitor the Anon service over via the `ControlPort`:
+```
+   docker exec -it anon-relay nyx
+```
    
 ## URLs
  * Website:           https://anyone.io
