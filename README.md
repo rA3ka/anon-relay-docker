@@ -5,12 +5,12 @@ Deploy a Anon Relay using Docker and participate in expanding the Anyone Network
 ## To run locally
 
 1. Clone the repository:
-```
-git clone https://github.com/rA3ka/anon-relay-docker
-```
+   ```
+   git clone https://github.com/rA3ka/anon-relay-docker
+   ```
 
 2. (Optional) In `docker-compose.yml`, edit the content below to set your preferred [anonrc](https://docs.anyone.io/sdk/native-sdk/man-anon-manual) parameters:
-```
+   ```
    configs:
      anonrc:
        content: |
@@ -21,7 +21,7 @@ git clone https://github.com/rA3ka/anon-relay-docker
          ORPort 9001
          Nickname MyRelayNickname
          ContactInfo my@example.mail
-```
+   ```
 
 3. Run the containers:
    ```bash
@@ -32,9 +32,9 @@ git clone https://github.com/rA3ka/anon-relay-docker
    docker compose logs anon-relay
    ```
 5. (Optional) Run Nyx to monitor the Anon service over via the `ControlPort`:
-```
+   ```
    docker exec -it anon-relay nyx
-```
+   ```
    
 ## URLs
  * Website:           https://anyone.io
