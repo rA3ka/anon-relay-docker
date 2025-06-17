@@ -40,3 +40,7 @@ Deploy a Anon Relay using Docker and participate in expanding the Anyone Network
  * Website:           https://anyone.io
  * Documentation:     https://docs.anyone.io
  * Social:            https://x.com/AnyoneFDN
+
+<br>
+
+[![](https://cloud.phala.network/deploy-button.svg)](https://cloud.phala.network/templates/anyone-anon-relay)
